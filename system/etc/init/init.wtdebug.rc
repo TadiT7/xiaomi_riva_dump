@@ -1,0 +1,6 @@
+#wtbugreport
+service wtbugreport /system/bin/dumpstate -d -B -P -z \
+        -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
+    class main
+    disabled
+    oneshot
